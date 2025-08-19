@@ -104,12 +104,9 @@ We implemented **two CNN+LSTM architectures**:
 - Deploy model as a **web app** for real-time video action recognition.  
 
 ---
+## Output
+<img width="930" height="225" alt="image" src="https://github.com/user-attachments/assets/6ec0da25-0cb2-47fc-863b-ad8bda11c645" />
+<img width="472" height="275" alt="image" src="https://github.com/user-attachments/assets/200b4276-5475-4ab1-9af2-1948b7a7f9cc" />
+<img width="467" height="271" alt="image" src="https://github.com/user-attachments/assets/f16ef77a-b0e3-4d97-b550-9a5bb55d8be4" />
 
-## 👩‍💻 Author
-**Raj Nandini Singh**  
-📧 rajnandinisingh1622@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/raj-nandini-singh-618828250)  
 
----
-
-⭐ If you found this useful, please consider **starring the repo**!
