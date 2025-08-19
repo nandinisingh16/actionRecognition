@@ -11,7 +11,7 @@ Finally, we evaluate the best model on **YouTube videos**.
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 1. [Overview](#overview)  
 2. [Dataset](#dataset)  
 3. [Approaches](#approaches)  
@@ -22,22 +22,22 @@ Finally, we evaluate the best model on **YouTube videos**.
 
 ---
 
-## 🔎 Overview
+##  Overview
 - **Image Classification** → Single frame prediction. Ignores temporal sequence.  
 - **Video Classification** → Must capture both **spatial features** (appearance) and **temporal features** (motion).  
 
-📽️ A **video = sequence of frames**. Simply applying image classifiers frame-by-frame can lead to errors, as temporal relationships are ignored. Example: a "Backflip" video may look like "Falling" if analyzed frame by frame.  
+ A **video = sequence of frames**. Simply applying image classifiers frame-by-frame can lead to errors, as temporal relationships are ignored. Example: a "Backflip" video may look like "Falling" if analyzed frame by frame.  
 
 To overcome this, we explore several strategies:
 - Single-frame classification  
 - Late fusion & early fusion  
 - 3D CNNs  
 - Pose detection + LSTMs  
-- **CNN + LSTM (our chosen method)** ✅  
+- **CNN + LSTM (our chosen method)** 
 
 ---
 
-## 🎬 Dataset
+##  Dataset
 We use:  
 - **UCF50**: [UCF50 Dataset](https://www.crcv.ucf.edu/data/UCF50.php)  
 - (Optional extension) **UCF101**: [UCF101 Dataset](https://www.crcv.ucf.edu/data/UCF101.php)  
@@ -46,7 +46,7 @@ Each dataset consists of labeled human action videos (e.g., Basketball, Swing, T
 
 ---
 
-## 🧠 Approaches Implemented
+##  Approaches Implemented
 We implemented **two CNN+LSTM architectures**:
 
 1. **ConvLSTM**  
@@ -88,7 +88,7 @@ We implemented **two CNN+LSTM architectures**:
 
 ---
 
-## 📊 Results
+## Results
 - ConvLSTM achieved ~**78% accuracy** on test set (with 4 sample classes).  
 - Models were able to predict real-world YouTube videos with reasonable confidence.  
 - Accuracy improves with:  
@@ -98,7 +98,7 @@ We implemented **two CNN+LSTM architectures**:
 
 ---
 
-## 🚀 Future Work
+## Future Work
 - Train on **full UCF101** dataset.  
 - Use advanced architectures: **3D CNNs, Transformers for video**.  
 - Deploy model as a **web app** for real-time video action recognition.  
