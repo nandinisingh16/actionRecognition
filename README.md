@@ -1,4 +1,4 @@
-# 🎥 Human Action Recognition using CNN + LSTM (TensorFlow)
+#  Human Action Recognition using CNN + LSTM (TensorFlow)
 
 Convolutional Neural Networks (CNNs) are excellent for **image data**, while Long Short-Term Memory (LSTM) networks excel at **sequential data**. When combined, they provide the **best of both worlds** — allowing us to solve challenging **video classification problems**.
 
